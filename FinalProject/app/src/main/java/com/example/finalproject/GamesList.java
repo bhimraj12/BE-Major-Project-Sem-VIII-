@@ -68,5 +68,13 @@ public class GamesList extends AppCompatActivity {
                 startActivity(nextintent);
             }
         });
+        ImageButton g7=(ImageButton) findViewById(R.id.btn_alphapro);
+        g7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent nextintent=new Intent(GamesList.this, MainActivity2.class);
+                startActivity(nextintent);
+            }
+        });
     }
 }

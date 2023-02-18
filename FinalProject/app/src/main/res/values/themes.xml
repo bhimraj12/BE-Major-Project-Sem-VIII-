@@ -20,4 +20,8 @@
         <item name="android:windowCloseOnTouchOutside">false</item>
     </style>
 
+    <declare-styleable name="MyGallery">
+        <attr name="android:galleryItemBackground"></attr>
+    </declare-styleable>
+
 </resources>
